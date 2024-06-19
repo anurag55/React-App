@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 2px 10px;
+  z-index: 1000;
+  top: 55px;
+}
+
+.navbar button {
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar button:hover {
+  color: blue;
+}
+
+.article {
+  height: 100vh;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.article {
+  scroll-margin-top: 100px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#article1 {
+  padding-top: 50px;
+}
