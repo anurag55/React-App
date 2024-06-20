@@ -27,6 +27,7 @@ import Counter from './components/Redux/Counter';
 import Spa from './components/routing/Spa';
 
 import './App.css';
+import Map from './components/map';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
           <Route path='api-nested' element={<NestedApiResults/>}/>
           <Route path='form' element={<FormDemo/>}/>
           <Route path="hook-form" element={<HookFormDemo/>}/>
+          <Route path="data-map" element={<Map/>}/>
           <Route path="counter" element={<Counter/>}/>
           <Route path="spa" element={<Spa/>}/>
         </Route>

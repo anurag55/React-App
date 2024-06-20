@@ -37,6 +37,7 @@ export default function Dashboard() {
         {/* <li><NavLink to="hook-form">React Hook Form</NavLink></li> */}
         <li><NavLink to="api-nested">API Nested results</NavLink></li>
         {/* <li><NavLink to="form">Form</NavLink></li> */}
+        <li><NavLink to="data-map">Data Map</NavLink></li>
         <li><NavLink to="counter">Counter</NavLink></li>
         <li><NavLink to="spa">SPA</NavLink></li>
         <li><NavLink to="/">Logout</NavLink></li>
